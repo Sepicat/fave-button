@@ -1,5 +1,4 @@
 Pod::Spec.new do |s|
-
   s.name         = "FaveButton"
   s.version      = "3.0.0"
   s.summary      = "Twitter's heart like animated button written in Swift"
@@ -10,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/xhamr/fave-button.git', :tag => s.version.to_s }
   s.source_files  = 'Source/**/*.swift'
   s.requires_arc = true
-  end
+end
 
